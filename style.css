@@ -1,6 +1,12 @@
 .img_container{
+    width: 1280px;
+    height: 768px;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+.content{
     width: 200px;
     height: 200px;
     margin-top: 20px;
-    border: 2px solid red;
+    border: 2px solid green;
 }

@@ -45,7 +45,7 @@ fetch("https://api.nbrb.by/exrates/rates?ondate=2023-01-10&periodicity=0")
 .then((parseResult) => {
     parseResult.forEach(el => {
     const divNew = document.createElement('div');
-    divNew.classList.add('img_container');
+    divNew.classList.add('content');
     
     const textDate = document.createElement('p');
     textDate.innerHTML = el.Date;
